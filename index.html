@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom resume</title>
+</head>
+<body>
+    <script>
+        var title=document.createElement("h1");
+        title.innerText="Resume"
+        //console.log(title)
+
+        var heading=document.createElement("h2");
+        heading.innertext="JADALA SAIKUMAR"
+        //console.log(heading)
+
+        var line=document.createElement("hr");
+        //console.log(line)
+
+        var heading1=document.createElement("h3");
+        heading1.innerText="CAREER OBJECTIVE:"
+        //console.log(heading1)
+
+        var para1=document.createElement("p")
+        para1.innerText=("To work for a company where I can implement my knowledge and programming skills which provides opportunity to improve them, thereby contributing towards the organization's goals.")
+        //console.log(para1)
+
+        var heading2=document.createElement("h3")
+        heading2.innerText="EDUCATION QUALIFICATION:"
+        //console.log(heading2)
+
+        var list1=document.createElement("div");
+        list1.innerHTML="<ul><li>MBA(HR) in lal bahadur college, warangal 2022-2024,with 60%.</li> <li>B.com(Computer application) Govt degree college bhupalpally, 2019-2022, with 65%</li><li> Intermediate from gowtham junior college, hanamakonda,2017-2019 with 83%.</li></ul>"
+        //console.log(list1)
+
+        var heading3=document.createElement("h3");
+        heading3.innerText="STRENGTHS:"
+        //console.log(heading3)
+
+        var list2=document.createElement("div");
+        list2.innerHTML="<ul><li>Leadership qualities</li> <li>Communication skills</li> <li>Adaptability</li><li>Responsibility</li></ul>"
+        //console.log(list2)
+
+        var heading4=document.createElement("h3")
+        heading4.innerText="SKILLS:"
+        //console.log(heading4)
+
+
+        var list3=document.createElement("div");
+        list3.innerHTML="<ol> <li>Web Technologies:HTML, CSS</li><li>Tools:VS code</li><li>programming languages:python,java script</li><li>Testing framework:Mocha</li></ol>"
+            //console.log(list3)
+
+            var heading5=document.createElement("h3");
+            heading5.innerText="Projects:"
+            //console.log(heading5)
+
+            var list4=document.createElement("div");
+            list4.innerHTML="<ul><li>Trival</li><li>E-commerce website</li></ul>"
+            //console.log(list4)
+
+            var heading6=document.createElement("h3");
+            heading6.innerText="DECLARATION:"
+            //console.log(Heading6)
+
+
+            var para2=document.createElement("p")
+            para2.innerText="I hereby declare that above information is correct to the best of my knowledge."
+            //console.log(para2)
+
+            var sign=document.createElement("h4")
+            sign.innerText="Jadala Saikumar"
+            //console.log(sign)
+
+            var body=document.querySelector("body")
+            console.log(body)
+
+
+            body.append(title,heading,Line,heading1,para1,heading2,list1,heading3,list2,heading4,list3,heading5,list4,heading6)
+            body.appendChild(para2)
+            body.appendChild(sign)
+
+
+    </script>
+
+   <center> <h1>Resume</h1></center>
+    <h2>JADALA SAIKUMAR</h2>
+    <hr>
+    <h3>CAREER OBJECTIVE:</h3>
+    <P>
+        To work for a company where I can implement my knowledge and programming skills which provides opportunity to improve them, thereby contributing towards the organization's goals.
+    </P>
+
+
+    <h3>EDUCATION QUALIFICATION:</h3>
+    <div>
+        <ul>
+           <li> MBA(HR) in lal bahadur college, warangal 2022-2024,with 60%. </li> 
+            <li> B.com(Computer application) Govt degree college bhupalpally, 2019-2022, with 65% </li>
+            <li> Intermediate from gowtham junior college, hanamakonda,2017-2019 with 83% </li>
+        </ul>
+    </div>
+
+
+    <h3>STRENGTHS:</h3>
+    <div>
+        <ul>
+            <li>Leadership qualities</li>
+             <li>Communication skills</li> 
+             <li>Adaptability</li>
+            <li>Responsibility</li>
+        </ul>
+    </div>
+
+    <h3>SKILLS:</h3>
+
+    <div>
+        <ol> 
+            <li>Web Technologies:HTML, CSS</li>
+            <li>Tools:VS code</li>
+            <li>programming languages:python,java script</li>
+            <li>Testing framework:Mocha</li>
+        </ol>
+    </div>
+
+
+    <h3>
+        PROJECTS:
+    </h3>
+    <div>
+        <ul>
+            <li>Trival</li>
+            <li>E-commerce website</li>
+        </ul>
+    </div>
+
+    <h3>
+        DECLARATION:
+    </h3>
+    <p>
+        I hereby declare that above information is correct to the best of my knowledge.
+    </p>
+
+
+    <h5>J.saikumar</h5>
+
+
+
+
+
+
+
+
+</body>
+</html>
